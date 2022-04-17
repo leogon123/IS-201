@@ -1,0 +1,39 @@
+.common{
+    background-color: #de8116 ;
+    border: solid 2px white;
+    position: relative;
+}
+.header{
+    top:5px;
+    left: 5px;
+    right: 5px;
+    height:100px;
+    z-index: 2;
+    border-bottom: solid 1px brown;
+}
+.mainbody{
+    top:114px;
+    bottom: 64px;
+    left: 114px;
+    right: 114px;
+    padding-right: 5px;
+}
+.footer{
+    bottom:5px;
+    left: 5px;
+    right: 5px;
+    height:30px;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    position: fixed;
+}
+
+.subheader{
+    float: right;
+    border: solid 2px rgb(22, 23, 22);
+}
+.title{
+    float: left;
+    border: solid 2px rgb(22, 23, 22);
+}
